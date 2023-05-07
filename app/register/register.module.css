@@ -1,0 +1,15 @@
+.wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.wrap button {
+  width: 100%;
+}

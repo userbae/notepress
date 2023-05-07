@@ -1,0 +1,43 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex: 1;
+}
+.wrap .edit {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.wrap h4 {
+  padding: 10px;
+  padding-bottom: 0;
+  font-size: 30px;
+}
+.wrap form {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.wrap form input {
+  font-size: 20px;
+}
+.wrap form textarea {
+  flex: 1;
+
+  resize: none;
+}
+.wrap button {
+  width: 100%;
+  font-size: 20px;
+}
+
+.content {
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

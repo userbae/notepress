@@ -1,0 +1,39 @@
+.wrap {
+  flex: 1;
+  margin: 10px;
+}
+.write {
+  height: 100%;
+}
+.form {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+  flex-direction: column;
+}
+.form input {
+  width: 100%;
+  border: none;
+  font-size: 32px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+.form textarea {
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  height: 100%;
+}
+
+.form textarea:active {
+  border: none;
+}
+.content {
+  height: 90%;
+}
+.nav {
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+}
