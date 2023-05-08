@@ -2,6 +2,9 @@ note (https://github.com/userbae/note) 를 업그레이드
 <br />
 1.디자인 업그레이드
 <br />
+2.태그 자동완성<br />
+https://github.com/webscopeio/react-textarea-autocomplete/
+<br />
 
 예정<br />
 1.Electron<br />
@@ -15,5 +18,4 @@ note (https://github.com/userbae/note) 를 업그레이드
 
 사용한 npm <br/>
 
-자동완성<br />
-https://github.com/webscopeio/react-textarea-autocomplete/
+
