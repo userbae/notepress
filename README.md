@@ -2,13 +2,11 @@ note (https://github.com/userbae/note) 를 업그레이드
 <br />
 1.디자인 업그레이드
 <br />
-2.태그 자동완성<br />
-https://github.com/webscopeio/react-textarea-autocomplete/
-<br />
+
 
 예정<br />
 1.Electron<br />
-2.기능(키보드 이벤트)<br />
+
 
 생각 <br />
 내 계정의 MogoDB가 아닌 고객(사용자)의 MogoDB를 사용할 수 없는 가?<br />
