@@ -12,17 +12,21 @@ export default async function Edit(props) {
   return (
     <div className={styled.wrap}>
       <div className={styled.edit}>
-        <h4>수정페이지</h4>
         <form action="/api/post/edit" method="POST">
-          <input name="title" defaultValue={result.title} />
-          <Textarea result={result} />
+          <div className={styled.main}>
+            <input name="title" defaultValue={result.title} />
+            <Textarea result={result} />
 
-          <input
-            style={{ display: "none" }}
-            name="_id"
-            defaultValue={result._id.toString()}
-          />
-          <button type="submit">수정하기</button>
+            <input
+              style={{ display: "none" }}
+              name="_id"
+              defaultValue={result._id.toString()}
+            />
+          </div>
+
+          <div className={styled.sub}>
+            <button type="submit">수정하기</button>
+          </div>
         </form>
       </div>
     </div>

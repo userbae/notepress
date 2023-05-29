@@ -1,10 +1,10 @@
 .wrap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
 }
 
-.list_box {
-}
 .list_box img {
   height: 100%;
 }
@@ -64,11 +64,20 @@
   height: 2rem;
   background-color: gray;
 }
+.wrap img {
+  width: 178px;
+}
 @media (max-width: 800px) {
   .plus_m {
     display: block;
   }
   .plus_pc {
     display: none;
+  }
+  .list_box {
+    justify-content: space-around;
+  }
+  .wrap img {
+    width: 150px;
   }
 }

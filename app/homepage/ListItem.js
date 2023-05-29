@@ -28,7 +28,7 @@ export default function ListItem(props) {
               <div key={i} className={styled.list_box}>
                 <Link prefetch={false} href={`detail/${a._id}`}>
                   <div>
-                    <img src="/pngwing.com.png" style={{ width: "178px" }} />
+                    <img src="/pngwing.com.png" />
                   </div>
                   <div className={styled.title}>{a.title}</div>
                 </Link>
