@@ -8,7 +8,17 @@
 .wrap form {
   display: flex;
   flex-direction: column;
+  gap: 15px;
+}
+
+.wrap input {
+  border-bottom: 1px solid black;
+}
+
+.wrap .btn {
   gap: 5px;
+  display: flex;
+  flex-direction: column;
 }
 .wrap button {
   width: 100%;

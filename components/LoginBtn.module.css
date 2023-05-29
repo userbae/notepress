@@ -1,0 +1,17 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrap h1 {
+  font-size: 32px;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+}

@@ -15,10 +15,10 @@ export default async function Detail(props) {
         <h3>{result?.title}</h3>
       </div>
 
-      <div
+      <pre
         className={styled.content}
         dangerouslySetInnerHTML={{ __html: result?.content }}
-      ></div>
+      ></pre>
       <div className={styled?.bot}>
         <Link href={`/edit/${result?._id}`}>
           <button>수정하기</button>

@@ -5,7 +5,6 @@ export default function List() {
   return (
     <div>
       <div className={styled.home_nav}>
-        <input type="text" placeholder="🔍검색" />
         <div className={styled.plus_m}>
           <Link href="/write">
             <button>추가하기</button>

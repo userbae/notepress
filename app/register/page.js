@@ -10,11 +10,14 @@ export default function Register() {
         <input name="name" type="text" placeholder="이름" />
         <input name="email" type="text" placeholder="이메일" />
         <input name="password" type="password" placeholder="비번" />
-        <button type="submit">가입요청</button>
 
-        <Link href="/">
-          <button>홈으로</button>
-        </Link>
+        <div className={styled.btn}>
+          <button type="submit">가입요청</button>
+
+          <Link href="/">
+            <button>홈으로</button>
+          </Link>
+        </div>
       </form>
     </div>
   );
